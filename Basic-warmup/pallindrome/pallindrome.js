@@ -1,0 +1,14 @@
+num = 121
+numCopy= num
+rev = 0;
+while(num>0){
+    let rem = num % 10
+     rev = (10*rev) + rem
+    num = Math.floor(num/10)
+    }
+if(numCopy == rev) {
+    console.log("its a palindrome")
+}
+else{
+      console.log("it  is not  a palindrome")
+}

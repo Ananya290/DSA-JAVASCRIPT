@@ -110,7 +110,7 @@ for(let i = 6 ; i > 0; i--){
     for(let j = 1; j < i ; j++){
         value = value + j
     }
-     console.log("Answer 5:", value);
+    //  console.log("Answer 5:", value);
    
 }
 
@@ -131,3 +131,76 @@ for(let i = 6 ; i > 0; i--){
 
 */
 
+for(let i = 1 ; i<6; i++){
+    let row = " "
+    for(let j =1 ; j <= 6 -i ; j++){
+        row = row + " "
+    }
+    for(let k =1;k<=i;k++){
+        row = row + "*"
+    }
+    // console.log"Answer 6:"(row)
+}
+
+
+//Question 7
+
+/*
+
+1
+10
+101
+1010
+10101
+101010
+
+
+
+ 
+
+
+*/
+
+for(let i = 1 ; i<=6; i++){
+    let row = ""
+    for(let j =1 ; j <= i ; j++){
+        if(j%2 == 0){
+            row = row + "0"
+        }else{
+            row = row + "1"
+        }
+    }
+    // console.log(row) 
+}
+
+
+//Question 8
+
+/*
+
+1
+1 0
+0 1 0
+0 1 0 1
+1 0 1 0 1
+
+
+
+ 
+
+
+*/
+
+let toggle = "0"
+for(let i = 1 ; i<=5; i++){
+    let row =""
+    for(let j =1 ; j <= i ; j++){
+        if(toggle == 0){
+            toggle = 1
+        }else{
+            toggle = 0
+        }
+       row = toggle + row
+    }
+    console.log(row) 
+}
