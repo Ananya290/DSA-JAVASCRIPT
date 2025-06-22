@@ -40,7 +40,13 @@ O(log n) >> O(n)
 
 O(n2) --- loop in loop , this one is more worst than O(n)
 O(n log n) ---- Merge Sort
+O(n3)
+O(2n)
+O(1)
 
+O(1) > O(log n) > O(n) > O (n log n) > O(n2) > O (2n) > O(n!)
+
+2. Space Complexity
 
 
 
