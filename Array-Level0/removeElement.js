@@ -26,4 +26,4 @@ function removeElement(){
 };
 return x
 }
-console.log(removeElement())
+ console.log(removeElement())
