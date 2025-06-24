@@ -17,20 +17,21 @@ else{
 
 // By using function find the pallindrome.
 
-let number = 121
-copyNumber = number
-let rev = ""
 function reverseInteger(){
- while(number>0){
-    rem = (number % 10)
-    rev += rem
-    number = Math.floor(number / 10)
- }
- if(copyNumber == rev){
-console.log("its a pallindrome")
- }else{
-    console.log("it is not  a pallindrome")
- }
- return copyNumber == rev 
+    let number = 121;
+    let copyNumber = number;
+    let rev = 0;
+    while(number > 0){
+        let rem = number % 10;
+        rev = (10 * rev) + rem;
+        number = Math.floor(number / 10);
+    }
+    if(copyNumber == rev){
+        return true;
+    } else {
+        return false;
+    }
 }
-// console.log(reverseInteger())
+console.log(reverseInteger())
+
+
