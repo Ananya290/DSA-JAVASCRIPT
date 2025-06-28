@@ -15,7 +15,7 @@ else{
       console.log("it  is not  a palindrome")
 }
 
-// By using function find the pallindrome.
+//Leet Code Question 9: By using function find the pallindrome.
 
 function reverseInteger(){
     let number = 121;
