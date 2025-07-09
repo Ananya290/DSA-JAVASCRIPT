@@ -1,0 +1,15 @@
+3	Recursion
+	Function call itself to solve smaller version of the same problem
+3.1	Two Parts of recursion
+	"Base case - stop condition (when to stop calling itself)
+Recursive case - Part where function call itself"
+	Infinite recursion leads to Stack OverFlow.
+3.2	"Common Mistake
+1.Base Case -- Stack overflow
+2.Not Simplfying the input --- never reach the base case
+3. Too Deep recursion --- large input
+4. Keep in mind the time complexity"
+3.3	"When to use Recursion
+1.Problem can be broken into sub problems
+2.Trees and Graph
+3. Backtracking , DP, Divide and conquer"
