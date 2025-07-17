@@ -20,9 +20,9 @@ function binarySearch(nums,target){
 
 
 arr = [-1,0,1,3,5,7,9,10]
-arr1 = [1]
+// arr1 = [1]
 target = 1
-console.log(binarySearch(arr,target))
+binarySearch(arr,target)
 
 
 /*
