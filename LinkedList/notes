@@ -1,0 +1,26 @@
+A.Linked List
+Linear data structure
+Nodes are linked together by a reference field
+
+B.Two type of Linkedlist:-
+1.Singly Linked List
+2.Doubly Linked List 
+
+C.Single Node
+|Value| Pointer|
+| Previous Pointer||Value| Next Pointer|
+
+D.Head
+Starting Point of Linkedlist
+
+E.Difference Between Linkedlist and Array
+Array - Linear , non-Contigenous ,  Fixed Size(can be dynamic),Just Value , Getting element is easy O(1), Insertion/deletion is complex,Memory Efficient
+Linkedlist - Linear , Contigenous ,Dynamic size (chnage easily), Node = Value+Pointer,Getting element is hard O(n),Insertion/deletion is easy, Extra Memory
+
+F.If you want to...                                  Use
+Access elements by index fast                     Array
+Insert/delete at head or tail frequently          Linked List
+Memory-efficient storage for static size           Array
+Avoid resizing overhead or unknown size upfront    Linked List
+Do lots of traversal/manipulation                  Linked List
+
