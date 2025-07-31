@@ -23,4 +23,23 @@ function cycleLinkedlist(head) {
     return false;
 }
 
-console.log(cycleLinkedlist(head)); 
+// console.log(cycleLinkedlist(head)); 
+
+
+//Another way to do Linked List Cycle - Floyd's Algorithm--------------------------------------------
+
+function cycleLinkedlistFloyd(head) {
+    if(head == 0) return false
+    let slow = head;
+    let fast = head.next;
+
+    while(slow != fast){
+        if(fast == null || fast.next == null) return false;
+        slow = slow.next;
+        fast = fast.next.next
+    }
+    return true;
+
+}
+
+console.log(cycleLinkedlist(head));
